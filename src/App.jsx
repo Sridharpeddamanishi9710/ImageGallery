@@ -25,7 +25,7 @@ function App() {
       <button onClick={searchImages}>Search</button>
       <div style={{ display: "flex", flexWrap: "wrap", marginTop: 20 }}>
         {images.map((img) => (
-          <img key={img.id} src={img.urls.small} alt={img.alt_description} style={{ width: 400, margin: 10 }} />
+          <img key={img.id} src={img.urls.small} alt={img.alt_description} style={{ width: 300, margin: 10 }} />
         ))}
       </div>
     </div>
